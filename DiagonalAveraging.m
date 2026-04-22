@@ -1,7 +1,7 @@
 function SignalComponent = DiagonalAveraging(X1)
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Input parameters
-% X1   :   Symmetric matrix corresponding to significant eigenvalue
+% X1   :   Symmetric matrix corresponding to significant eigenvalue pair
 %-------------------------------------------------------------------------
 % Output parameters
 % SignalComponent   :   Signal corresponding to the input symmetric matrix
