@@ -26,7 +26,7 @@ for i = 1:Ni
     sig_comps(:,i) = A(i)*sin(2*pi*f(i)*t + phi(i));
 end
 signal = sum(sig_comps,2);
-SNR = 5;    % Set NSR = inf for analysis of the clean signal
+SNR = 5;    % Set SNR = inf for analysis of the clean signal
 signal = awgn(signal,SNR);  % Adding SNR dB AWGN to the signal
 
 %% Decomposition of signal using EVDHM method
